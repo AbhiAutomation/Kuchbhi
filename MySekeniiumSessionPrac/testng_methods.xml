@@ -5,6 +5,7 @@
 		<classes>
 			<class name="selenium.ConfigurationAnnotation_1">
 			<methods>
+			<include name="test1"></include><!-- Added by Gaurav -->
 			<exclude name="test3"></exclude>
 			<include name="test2"></include>
 			</methods>
