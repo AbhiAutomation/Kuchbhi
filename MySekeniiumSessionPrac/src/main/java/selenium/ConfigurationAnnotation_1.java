@@ -1,28 +1,22 @@
 package selenium;
 
-
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class ConfigurationAnnotation_1 {
 	
 	@Test()
 	public void test1() {
-		UtilExtentReports obj = new UtilExtentReports();
-		obj.pass("test1", "I am in test1");
-		System.out.println("         ==>ReportPath "+obj.strReportPath);
-		
-		obj.generateReport();
+	
 		System.out.println("         ==>TestMethod 1 ");
 
 	}
 
 	@Test(groups= {"regression","e2e"})
 	public void test2() {
-		UtilExtentReports obj = new UtilExtentReports();
-		obj.pass("test1", "I am in test2");
-		System.out.println("         ==>ReportPath "+obj.strReportPath);
-		
-		obj.generateReport();
 		
 		System.out.println("         ==>TestMethod 2 ");
 
