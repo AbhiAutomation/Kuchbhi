@@ -5,7 +5,7 @@
 		<classes>
 			<class name="selenium.ConfigurationAnnotation_1">
 			<methods>
-			<include name="test1"></include>
+			<include name="test1"></include><!-- Added by Gaurav -->
 			<include name="test2"></include>
 			</methods>
 			</class>
