@@ -17,7 +17,7 @@ public class ConfigurationAnnotation_1 {
 
 	}
 
-	@Test(groups= {"smoke","e2e"})
+	@Test(groups= {"smoke","e2e","regression"})
 	public void test3() {
 		System.out.println("          ==>TestMethod 3 ");
 
